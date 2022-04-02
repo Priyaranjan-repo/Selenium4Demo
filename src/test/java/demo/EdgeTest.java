@@ -16,5 +16,6 @@ public class EdgeTest {
 		driver.manage().window().maximize();
 		System.out.println(driver.getTitle());
 		System.out.println("Priyaranjan Das is Great guy");
+		driver.close();
 	}
 }
